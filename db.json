@@ -50,5 +50,15 @@
       "language": "en",
       "status": "SUCCESS"
     }
+  },
+  "error": {
+    "header": {
+      "statusCode": "I000000",
+      "statusDescription": "Success",
+      "requestID": "193347a5-86b5-49ae-a3c7-13ff00ea9de6"
+    },
+    "httpCode": "401",
+    "httpMessage": "Unauthorized",
+    "moreInformation": "Invalid client id or secret."
   }
 }
