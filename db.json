@@ -1,1 +1,54 @@
-
+{
+  "initiate": {
+    "header": {
+      "statusCode": "I000000",
+      "statusDescription": "Success",
+      "requestID": "193347a5-86b5-49ae-a3c7-13ff00ea9de6"
+    },
+    "body": {
+      "stepUpRequestID": "d11c1dcf-03a2-44d8-a75d-4e45355608c8",
+      "processorID": "234938763",
+      "issuerID": "234938763",
+      "transactionID": "d11c1dcf-03a2-44d8-a75d-4e45355608c8",
+      "language": "en",
+      "OTP": "234543",
+      "status": "SUCCESS",
+      "mobileNumber": "9609588499886",
+      "paymentCardNumber": "2344",
+      "paymentCardExpiryMonth": "01",
+      "paymentCardExpiryYear": "2022",
+      "paymentCardType": "Credit",
+      "paymentCardHolderName": "Ahmed Mohamed",
+      "merchantAcquirerID": "235564334",
+      "merchantAcquirerCountryCode": " 023",
+      "merchantID": "2345",
+      "merchantName": "Ahmed Mohamed",
+      "merchantURL": "https://merchant/merchantid/2345",
+      "merchantCategoryCode": "3445",
+      "merchantCountryCode": "034",
+      "merchantApplicationRedirectURL": "https://merchant/app/merchantid/2345",
+      "transactionTimestamp": "2024-05-23T15:59:43.511+03:00",
+      "transactionAmount": 3500000,
+      "transactionCurrency": "SAR",
+      "transactionExponent": 3,
+      "transactionType": "Payment",
+      "transactionMandatedRegion": "middle east",
+      "transactionChannel": "Credit card"
+    }
+  },
+  "validate": {
+    "header": {
+      "statusCode": "I000000",
+      "statusDescription": "Success",
+      "requestID": "193347a5-86b5-49ae-a3c7-13ff00ea9de6"
+    },
+    "body": {
+      "stepUpRequestID": "293f47a5-85b5-47ae-a2c7-5hff90er9de6",
+      "processorID": "123456789012345678901234",
+      "issuerID": "123456789012345678901234",
+      "transactionID": "293f47a5-85b5-47ae-a2c7-5hff90er9de6",
+      "language": "en",
+      "status": "SUCCESS"
+    }
+  }
+}
